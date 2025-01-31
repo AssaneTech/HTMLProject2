@@ -5,9 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Delicious Bites Menu</title>
 </head>
+
+<!--I want to add something of creativity-->
+    <style>
+            body 
+                {
+                    height: 100%;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center; /* Centre horizontalement */
+                    align-items: center; /* Centre verticalement */
+                }
+                
+            #Mypage
+                {
+                    height:100%;
+                    width:500px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    display:grid;
+                    place-items:center;
+                    border-style: double;
+                    border-width: 10px;
+                    border-radius: 100px;
+                    border-spacing: 100px;
+                    background-color:burlywood;
+                    position:center;
+    }
+
+        body{
+            
+        }
+
+        #Plat 
+        {
+            border-style:inherit;
+            border-color: white;
+            width: 200px;
+            height:200px;
+            border-radius: 40px;
+        }
+
+
+
+    </style>
+
 <body>   
+    <div id="Mypage">
     <h1>Delicious Bites Menu</h1>
 
+
+
+    <!--Make a separation line--> <hr/>
     <h2>Appetizers</h2>  
     <ul>     
         <li>          
@@ -26,6 +76,11 @@
         </li>
     </ul>  
 
+    <img id="Plat" src="./Appetizer.jfif" alt="Very delicious">
+
+
+
+    <!--Make a separation line--> <hr/>
     <h2>Main Courses</h2> 
     <ul>   
         <li>      
@@ -41,7 +96,12 @@
                 <p>This is rice and fish, the most popular menu of Senegal</p>
          </li>
     </ul>   
+    <img id="Plat" src="./MainCourses.jfif" alt="Very delicious">
 
+
+
+
+    <!--Make a separation line--> <hr/>
     <h2>Desserts</h2>  
     <ul>     
         <li>    
@@ -49,7 +109,7 @@
             <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
         </li>    
         <li>
-            <strong>Bissap/strong>
+            <strong>Bissap</strong>
             <p>This a senegalese juice made with sorrel</p>
         </li>
         <li>
@@ -57,7 +117,9 @@
             <p>This a juice made with monkey bread</p>
         </li>
     </ul> 
-
+    <img id="Plat" src="./Bissap.jfif" alt="Very delicious">    
+ <!--Make a separation line--> <hr/>
     <p><a href="contact.html">Contact us for reservations</a></p> 
+    </div>
 </body>
 </html>
